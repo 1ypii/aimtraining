@@ -1,0 +1,52 @@
+.Root {
+    width: 100%;
+    height: 100%;
+}
+
+#bar {
+    horizontal-align: center;
+    margin-top: 96px;
+    flow-children: right;
+    background-color: #000000b0;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+#bar.Hidden {
+    opacity: 0;
+}
+
+.Cell {
+    flow-children: down;
+    width: 132px;
+    padding: 8px 0px 10px 0px;
+}
+
+.Name {
+    horizontal-align: center;
+    font-size: 15px;
+    color: #9a9a9a;
+}
+
+.Value {
+    horizontal-align: center;
+    font-size: 26px;
+    color: #f2f2f2;
+}
+
+#flash {
+    horizontal-align: center;
+    margin-top: 300px;
+    font-size: 56px;
+    color: #f2f2f2;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-out;
+}
+
+#flash.Hidden {
+    opacity: 0;
+}

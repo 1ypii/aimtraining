@@ -1,0 +1,31 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/aimtraining.css" />
+	</styles>
+
+	<Panel class="Root" hittest="false">
+		<Panel id="bar" class="Hidden" hittest="false">
+			<Panel class="Cell" hittest="false">
+				<Label class="Name" hittest="false" text="mode" />
+				<Label id="mode" class="Value" hittest="false" text="{s:v}" />
+			</Panel>
+			<Panel class="Cell" hittest="false">
+				<Label class="Name" hittest="false" text="time" />
+				<Label id="time" class="Value" hittest="false" text="{s:v}" />
+			</Panel>
+			<Panel class="Cell" hittest="false">
+				<Label class="Name" hittest="false" text="hits" />
+				<Label id="hits" class="Value" hittest="false" text="{s:v}" />
+			</Panel>
+			<Panel class="Cell" hittest="false">
+				<Label class="Name" hittest="false" text="accuracy" />
+				<Label id="acc" class="Value" hittest="false" text="{s:v}" />
+			</Panel>
+			<Panel class="Cell" hittest="false">
+				<Label class="Name" hittest="false" text="streak" />
+				<Label id="streak" class="Value" hittest="false" text="{s:v}" />
+			</Panel>
+		</Panel>
+		<Label id="flash" class="Hidden" hittest="false" text="{s:v}" />
+	</Panel>
+</root>
